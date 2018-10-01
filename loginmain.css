@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.all{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: #e5ecef;
+    position: relative;
+}
+
+.login{
+    position: absolute;
+    right: 38%;
+    top:18%;
+    display: block;
+    width: 450px;
+    height: 420px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(7, 10, 14, 0.15);
+    padding: 35px 30px 30px;
+}
+
+.top{
+    display: block;
+    text-align: center;
+}
+
+.top i{
+    font-size: 30px;
+    color: #ffb400;
+}
+
+.top span{
+    font-size: 25px;
+    color: #a7a7a7;
+}
+
+.medium{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    color: #a9afa7;
+    padding-bottom: 20px;
+}
+
+.input{
+   display: block;
+    font-size: 13px;
+    font-family: Avenir-Heavy,sans-serif;
+    color: #8fa4af;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.input input{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5ecef;
+    border-radius: 4px;
+    height: 52px;
+    width: 383px;
+    box-shadow: none;
+    padding-right: 45px;
+    padding-left: 20px;
+    font-size: 25px;
+    color: #8eb2cc;
+    margin-top: 8px;
+}
+
+.last{
+    display: block;
+    padding-top: 25px;
+}
+
+.select{
+    display: block;
+    float: left;
+}
+
+.text{
+    display: block;
+    float: left;
+}
+
+.button{
+    display: block;
+    float: right;
+}
+
+.button a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffb400;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    line-height: 38px;
+    color: white;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.button a:hover{
+    background-color: #f3aa00;
+    text-decoration: none;
+    color: white;
+}
+
+.button a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.forgot{
+   display: block;
+    width: 80px;
+    position: absolute;
+    right: 44%;
+    top:74%;
+}
+
+.modal-content{
+    padding: 15px;
+    height: 270px;
+}
+
+.register-title{
+    display:block ;
+    text-align: center;
+    font-size: 25px;
+}
+
+.register-main{
+    display: block;
+    padding: 20px;
+}
+
+.register-email{
+    color: #5bc0de;
+    font-weight: 600;
+}
+
+.register-email input{
+    width: 190px;
+    height: 30px;
+    border: 1px solid #8d8d8d;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #a7a7a7;
+    font-weight: 400;
+}
+
+.register-password input{
+    width: 190px;
+    height: 30px;
+    border: 1px solid #8d8d8d;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #a7a7a7;
+    font-weight: 400;
+}
+
+.register-password{
+    color: #5bc0de;
+    font-weight: 600;
+}
+
+.register-finish{
+    display: block;
+    float: right;
+    margin-right: 15px;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #ffb400;
+    text-align:center;
+    color: white;
+    line-height: 35px;
+    margin-top: 25px;
+}
+
+.register-finish:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #e09d00;
+}
+
+.register-finish:visited{
+    color: white;
+    text-decoration: none;
+}

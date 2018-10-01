@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="loginmain.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="shortcut icon" href="img/title.png" type="image/x-icon">
+</head>
+<body>
+
+<div class="all">
+
+    <div class="login">
+
+    <div class="top">
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+        <span>Auckland</span>
+    </div>
+
+    <div class="medium">
+        Welcome back! Please login.
+    </div>
+
+    <form name="loginform" action="index.html" method="post" id="logon">
+
+        <div class="input">
+            EMAIL<br>
+            <input type="text" id="text" name="inp">
+        </div>
+
+        <div class="input">
+            PASSWORD<br>
+            <input type="password" id="password" name="pasw">
+        </div>
+
+        <div class="last">
+
+                    <span class="select">
+                        <input type="checkbox" >
+                    </span>
+
+            <span class="text">
+                        Stay Signed In
+                    </span>
+
+            <span class="button" >
+
+                        <a href="#" onclick="return checkMe();">
+                            Login
+                        </a>
+
+                    </span>
+
+
+        </div>
+
+    </form>
+
+</div>
+
+    <div class="forgot">
+
+        <a type="button" class="btn btn-link btn-lg" data-toggle="modal" data-target=".bs-example-modal-sm">
+            Forget password?
+        </a>
+
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+
+                    <div class="register-title">
+                        register
+                    </div>
+
+                    <div class="register-main">
+                        <form>
+
+                            <div class="register-email">
+                                Email<br>
+                                <input type="text">
+                            </div>
+
+
+                            <div class="register-password">
+                                Password<br>
+                                <input type="password">
+                            </div>
+
+                            <a href="#" class="register-finish">
+                                Finish
+                            </a>
+
+                        </form>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+<script src="ldgin.js"></script>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
